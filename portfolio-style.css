@@ -49,10 +49,11 @@ table {
 
 /* Base Style Information */
 
+
 body {
-    background-image: url("assets/071012p2edit.jpg");
+    background-image: url("assets/071012edit.jpg");
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-size: 120% 100%;
     background-color: black ;
 }
 
@@ -63,8 +64,9 @@ header {
     height: 20%;
     background: transparent !important;
     line-height: 3rem;
-    padding: 20px;
+    padding-top: 20px;
     font-family: 'Homemade Apple', cursive;
+    font-size: large;
 }
 .nav-brand {
     padding: 1%;
@@ -73,73 +75,59 @@ header {
     font-size: 25px;
 }
 
-/* Section Information */
+/*  Section stylesheet */
 
 .my-container {
     position: static;
-    margin-left: 20px; 
     width: 55%;
-    height: 75%;
-    background: transparent !important;
     color: white;
     text-shadow: black 2px 2px;
-    direction: rtl;
-    overflow: auto;
+    margin-left: 20px;
+}
+
+.image-landscape {
+    width: 90%;
+    height: 300px;
+    margin: 0px;
+}
+
+.image-portrait {
+    width: 80%;
+    height: 400px;
 }
 
 .card-title {
     font-family: 'Lacquer';
-    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(144, 30, 211);
+}
+
+H3 {
+    width: 60%;
     padding: 10px;
-}
-
-h4 {
-    text-align: center;
+    text-align: start;
+    position: relative;
+    left: 10px;
+    bottom: 100px;
+    opacity: 0.8;
+    background-color: skyblue;
     font-family: 'Barrio';
-    font-size: 35px;
-    color: lightskyblue;
 }
 
-p {
-    background-color:olive;
-    line-height: 30px;
-    font-family: 'Barrio';
-    font-size: 26px;
-}
-
-.bookreference {
-    color: purple;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 38px;
-    font-weight: bold;
-    padding: 50px;
-}
-
-.row-2 {
-    padding: 20px;
-}
-
-.section-image {
-    padding: 30px;
-    width: 40%;
-}
-
-/* Footer Informatoon */
+/* Footer */
 
 footer {
-    position: fixed;
+    position: static;
     background: transparent !important;
+    font-family: 'Lacquer';
     bottom: 0;
     color: lightseagreen;
     text-align: center;
-    background-color: #446779;
     width: 100%;
     height: 5%;
     font-size: 35px;
     text-shadow: black 2px 2px;
 }
-
-/* Media Keys */
 
 @media screen and (max-width: 768px) {
     * {
@@ -147,43 +135,38 @@ footer {
     }
 
     body {
-        background-size: 250%;
+        background-size: 400%;
+    }
+
+    header {
+        font-size: 60%;
     }
 
     .my-container {
-        width: 100%;
-        margin: 0;
-        padding: 20px;
-        height: 90%;
+        width: 90%;
+        align-items: center;
     }
 
-    .section-image {
-        width: 55%;
-        padding: 10px;
-        margin: 0;
+    .image-landscape {
+        width: 80%;
+        height: 300px;
+    }
+    
+    .image-portrait {
+        width: 80%;
+        height: 300px;
     }
 
-    .colorred {
-        font-size: 30px;
-        padding: 10px;
-    }
-
-    h2 {
-        font-size: 18px;
-    }
-
-    h4 {
-        font-size: 30px;
-        padding: 0px;
-    }
-    p {
-        font-size: 18px;
-        line-height: 30px;
+    H3 {
+        width: 60%;
+        text-align: start;
+        position: relative;
+        left: 5px;
     }
 
     footer {
         padding: 10px;
-        position:static;
+        position: static;
     }
 
 }
@@ -191,30 +174,48 @@ footer {
 @media screen and (max-width: 640px) {
     
     body {
-        background-size: 1300px 3000px;
+        background-size: 2300px 3000px;
     }
-
+ header {
+     font-size: large;
+     padding: 10px;
+ }
     .nav-brand {
         font-family: 'Barrio';
         font-size: 50px;
         padding: 20px;
     }
 
-    .section-image {
-        width: 100%;
+    .my-container {
+        width: 90%;
+        align-items: center;
     }
 
-    h4 {
-        font-size: 30px;
-        color: pink;
-        text-shadow: black  2px 2px;
+.card-title {
+    padding: 20px;
+    text-align: center;
+}
+    .image-landscape {
+        width: 100%;
+    }
+    
+    .image-portrait {
+        width: 100%;
+        height: 350px;
+    }
+
+    H3 {
+        width: 80%;
+        text-align: start;
+        position: relative;
+        left: 10px;
     }
 
     .footer {
         position:static;
         font-size: 50px;
         padding: 20px;
-        line-height: 50px;
+        line-height: 60px;
 
     }
 }
