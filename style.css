@@ -1,3 +1,5 @@
+/* Reset Code */
+
 */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -19,6 +21,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -44,54 +47,59 @@ table {
 	border-spacing: 0;
 }
 
+/* Base Style Information */
+
 * {
     font-family: 'Homemade Apple', cursive;
 }
 
 body {
     background-image: url("assets/071012p2edit.jpg");
-    margin: 20px;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-color: black ;
 }
+
+/* Navbar Stylesheet */ 
 
 header {
     width: 100%;
     height: 20%;
     background: transparent !important;
     line-height: 3rem;
+    padding: 20px;
 }
-
 .nav-brand {
     padding: 1%;
     font-size: large;
     color: orange;
+    font-size: 25px;
 }
 
+/* Section Information */
+
 .my-container {
-    border: 20px yellow solid;
-    margin: 50px; 
-    padding: 10px;
-    width: 52%;
+    position: static;
+    margin: 0px; 
+    width: 55%;
+    height: 75%;
     background: transparent !important;
     color: white;
     text-shadow: black 2px 2px;
-}
-
-.my-row {
-    padding: 5px;
-}
-
-.my-col {
-    padding: 5px;
+    direction: rtl;
+    overflow: auto;
 }
 
 .card-title {
     font-family: Lacquer;
+    text-align: center;
+    padding: 10px;
 }
 
 h4 {
     color: purple;
+    text-shadow: blue 2px 2px;
     font-size: 35px;
-    text-align: end;
 }
 
 p {
@@ -102,12 +110,9 @@ p {
 
 .colorred {
     color: red;
-    text-shadow: black 2px 2px;
-}
-
-
-.underline {
-    border-bottom: 7px double ghostwhite; 
+    text-shadow: purple 2px 2px;
+    font-family: 'Homemade Apple';
+    padding: 50px;
 }
 
 .row-2 {
@@ -115,10 +120,11 @@ p {
 }
 
 .section-image {
-    padding: 25px;
-    width: 50%;
-    
+    padding: 30px;
+    width: 40%;
 }
+
+/* Footer Informatoon */
 
 footer {
     position: fixed;
@@ -128,8 +134,87 @@ footer {
     text-align: center;
     background-color: #446779;
     width: 100%;
-    font-size: 20px;
+    height: 5%;
+    font-size: 35px;
     text-shadow: black 2px 2px;
 }
 
-@media 
+/* Media Keys */
+
+@media screen and (max-width: 768px) {
+    * {
+     margin: 0;
+    }
+
+    body {
+        background-size: 250%;
+    }
+
+    .my-container {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        height: 90%;
+    }
+
+    .section-image {
+        width: 55%;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .colorred {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 30px;
+        padding: 0px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    footer {
+        padding: 10px;
+        position:static;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    
+    body {
+        background-size: 1300px 3000px;
+    }
+
+    .nav-brand {
+        font-family: 'Barrio';
+        font-size: 50px;
+        padding: 20px;
+    }
+
+    .section-image {
+        width: 100%;
+    }
+
+    h4 {
+        font-size: 30px;
+        color: pink;
+        text-shadow: black  2px 2px;
+    }
+
+    .footer {
+        position:static;
+        font-size: 50px;
+        padding: 20px;
+        line-height: 50px;
+
+    }
+}
