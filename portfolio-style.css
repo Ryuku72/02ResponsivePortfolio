@@ -60,20 +60,22 @@ body {
 /* Navbar Stylesheet */ 
 
 .nav-brand {
-    padding: 1%;
-    font-size: large;
+    padding: 10px;
+    font-size: 6vw;
     color: orange;
     font-size: 2vw;
+    text-shadow: black 2px 2px;
 }
 
 header {
     width: 100%;
-    height: 20%;
+    height: 100px;
     background: transparent !important;
     line-height: 3rem;
     padding-top: 20px;
     font-family: 'Homemade Apple', cursive;
     font-size: 1vw;
+    text-shadow: black 2px 2px;
 }
 
 a:hover {
