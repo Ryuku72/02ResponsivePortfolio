@@ -51,10 +51,11 @@ table {
 
 
 body {
-    background-image: url("assets/071012edit.jpg");
-    background-repeat: no-repeat;
-    background-size: 120% 100%;
+    background-image: url("assets/210712edit.jpg");
+    background-repeat: repeat;
+    background-size: 100% 200%;
     background-color: black ;
+    margin: 10px;
 }
 
 /* Navbar Stylesheet */ 
@@ -64,6 +65,7 @@ body {
     font-size: large;
     color: orange;
     font-size: 2vw;
+    text-shadow: black 2px 2px;
 }
 
 header {
@@ -74,66 +76,58 @@ header {
     padding-top: 20px;
     font-family: 'Homemade Apple', cursive;
     font-size: 1vw;
+    text-shadow: black 2px 2px;
 }
 
 a:hover {
     color: hotpink;
 }
 
-/*  Section stylesheet */
+/*  form stylesheet */
 
 .my-container {
-    position: static;
-    width: 65%;
-    color: white;
-    text-shadow: black 2px 2px;
-    margin-left: 20px;
+    width: 55%;
+    height: 80%;
+    padding: px;
+    margin: 40px;
 }
 
-.image-landscape {
-    width: 90%;
-    height: 300px;
-    margin: 0px;
-}
-
-.image-portrait {
-    width: 80%;
-    height: 400px;
-}
-
-.card-title {
+.form-header {
     font-family: 'Lacquer';
+    color:  rgb(144, 30, 211);
+    text-shadow: papayawhip 1px 2px;
     font-size: 3vw;
-    margin-bottom: 30px;
-    color: rgb(144, 30, 211);
-}
-
-H3 {
-    width: 60%;
     padding: 10px;
-    text-align: start;
-    position: relative;
-    left: 10px;
-    bottom: 100px;
-    opacity: 0.8;
-    background-color: skyblue;
-    font-family: 'Barrio';
-    font-size: 30px;
+}
+.form-titles {
+    color: white;
+    text-shadow: palegreen 1px 1px;
+    font-size: 2vw;
+    padding: 1px;
 }
 
-H3:hover {
+.form-warning {
     color: red;
+    font-size: 1.5vw;
+    text-align: end;
 }
 
+.btn-control {
+    color: black;
+    border-color: paleturquoise;
+    background-color:  rgb(144, 30, 211);
+    font-size: 2vw;
+}
 /* Footer */
 
 footer {
-    position: sticky;
+    position: fixed;
     background: transparent !important;
     padding: 30px;
     padding-right: 50px;
     font-family: 'Lacquer';
-    bottom: 0;
+    bottom: 20px;
+    right: 5px;
     color: lightseagreen;
     text-align: end;
     width: 100%;
@@ -147,8 +141,9 @@ i:hover {
 }
 
 @media screen and (max-width: 800px) {
+
     * {
-     margin: 0;
+     margin: 0px;
     }
 
     body {
@@ -156,7 +151,7 @@ i:hover {
     }
 
     .nav-brand {
-        font-size: 5vw;
+        font-size: 3.2vw;
     }
 
     header {
@@ -168,33 +163,23 @@ i:hover {
         align-items: center;
     }
 
-    .card-title {
-        padding: 20px;
-        text-align: center;
-        font-size: 4vw;
-        }
-
-    .image-landscape {
-        width: 80%;
-        height: 300px;
+    .form-header {
+        font-size: 5vw;
+    }
+    .form-titles {
+        font-size: 3vw;
     }
     
-    .image-portrait {
-        width: 80%;
-        height: 300px;
+    .form-warning {
+        font-size: 2vw;
     }
-
-    H3 {
-        width: 60%;
-        text-align: start;
-        position: relative;
-        left: 5px;
-    }
+    
 }
 
 @media screen and (max-width: 640px) {
+
     body {
-        background-size: 400% 100%;
+        background-size: 400%;
     }
 
     .nav-brand {
@@ -207,30 +192,19 @@ i:hover {
      }
 
     .my-container {
-        width: 100%;
+        width: 90%;
         align-items: center;
     }
 
-    .card-title {
-    padding: 20px;
-    text-align: center;
-    font-size: 4vw;
+    .form-header {
+        font-size: 5vw;
     }
-
-    .image-landscape {
-        width: 90%;
+    .form-titles {
+        font-size: 3vw;
     }
     
-    .image-portrait {
-        width: 60%;
-        height: 350px;
+    .form-warning {
+        font-size: 2vw;
     }
-
-    H3 {
-        width: 40%;
-        text-align: start;
-        position: relative;
-        left: 10px;
-    }
-
+    
 }
