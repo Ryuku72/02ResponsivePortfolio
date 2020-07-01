@@ -1,6 +1,6 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/Ryuku72/02-ResponsivePortfolio?style=for-the-badge)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Ryuku72/02-ResponsivePortfolio?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/Ryuku72/02-ResponsivePortfolio?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Ryuku72/02ResponsivePortfolio?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Ryuku72/02ResponsivePortfolio?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/Ryuku72/02ResponsivePortfolio?style=for-the-badge)
 
 # Responsive Portfolio
 __Project Two__ 
