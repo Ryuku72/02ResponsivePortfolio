@@ -1,9 +1,9 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/Ryuku72/HomeworkW2?style=for-the-badge)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Ryuku72/HomeworkW2?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/Ryuku72/HomeworkW2?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Ryuku72/02-ResponsivePortfolio?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Ryuku72/02-ResponsivePortfolio?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/Ryuku72/02-ResponsivePortfolio?style=for-the-badge)
 
-# Homeworkw2
-Homework W2: Responsive Portfolio
+# Responsive Portfolio
+Project Two 23 Feb 2020
 
 ## Aim // Introduction
 To utilize Bootstrap and various tools learnt during Week 2 of Bootcamp to create a responsive website. References images were provided in the WAUS-CRAW-FSF-PT-02-2020-U-C-MW/ Week 2/ Day 1/ Homework folder. References images followed a 980px, 768px and 640px size variants.
