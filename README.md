@@ -3,8 +3,9 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/Ryuku72/02ResponsivePortfolio?style=for-the-badge)
 
 # Responsive Portfolio
-__Project Two__ 
-23 Feb 2020
+__Project Two: 23 Feb 2020__
+<br>
+https://ryuku72.github.io/02ResponsivePortfolio/
 
 ## Aim // Introduction
 To utilize Bootstrap and various tools learnt during Week 2 of Bootcamp to create a responsive website. References images were provided in the WAUS-CRAW-FSF-PT-02-2020-U-C-MW/ Week 2/ Day 1/ Homework folder. References images followed a 980px, 768px and 640px size variants.
