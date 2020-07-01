@@ -3,7 +3,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/Ryuku72/02-ResponsivePortfolio?style=for-the-badge)
 
 # Responsive Portfolio
-_Project Two_ 
+__Project Two__ 
 23 Feb 2020
 
 ## Aim // Introduction
